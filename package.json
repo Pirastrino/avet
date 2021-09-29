@@ -1,0 +1,19 @@
+{
+  "name": "avet",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Pirastrino/avet.git",
+  "author": "Martin Began <martin.began@kiwi.com>",
+  "licnese": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "yarn workspace @avet/app gatsby develop"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "volta": {
+    "node": "14.18.0",
+    "yarn": "1.22.11"
+  }
+}
